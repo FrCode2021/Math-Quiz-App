@@ -1,0 +1,42 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">QuizApp</string>
+
+    <!-- Text for question 1 header and checkboxes-->
+    <string name="question1">Question 1: Johnny has $12, which of the following toys could he buy? Check every toy he could afford, to show him which choices he has with his money.</string>
+    <string name="question1OptionA">Toy car: $15</string>
+    <string name="question1OptionB">Teddy Bear: $10</string>
+    <string name="question1OptionC">Pokemon Cards: $5</string>
+    <!-- Text for question 2 header and checkboxes-->
+    <string name="question2">Question 2: Which of the following equations result in 20? There may be more than one correct equations, check the box for each correct equation.</string>
+    <string name="question2OptionA">A: 5 * 4</string>
+    <string name="question2OptionB">B: 7 + 5</string>
+    <string name="question2OptionC">C: 8 + 12</string>
+    <!-- Text for question 3 header and buttons-->
+    <string name="question3">Question 3: There are 4 boys and 6 girls in the group. Is the following statement correct? The group has 12 children.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <!-- Text for question 4 header and buttons-->
+    <string name="question4">Question 4: Mrs. Lovely buys her children Ben and Mary icecream. Ben gets 3 scoops of chocolate and Mary 2 scoops of strawberry and one scoop of chocolate.
+        The chocolate icecream costs $2 per scoop and the strawberry $3. How much does Mrs. Lovely have to pay? </string>
+    <string name="radioButtonA">A: $14</string>
+    <string name="radioButtonB">B: $12</string>
+    <string name="radioButtonC">C: $18</string>
+    <!-- Text for question 5 header and hint-->
+    <string name="question5">Question 5: Ben has $1, he likes to buy a fruit. There are bananas for $1 per piece and Apples for $2 per piece. Which one can he buy, the banana or the apple?</string>
+    <string name="answer5">Answer to question 5. Hint: Monkeys like it.</string>
+    <!-- Text for grade button checking answers adn displaying result-->
+    <string name="grade">Submit Answers</string>
+    <!-- Text elements for toast message in public void checkAnswers(View view)  -->
+    <string name="question">Question</string>
+    <string name="wrong">Wrong</string>
+    <string name="correct">Correct</string>
+    <string name="summary5Of5">Congratulations! You have all answers correct :-)</string>
+    <string name="summarySomeOf5">You have <xliff:g id="name">%s</xliff:g> correct answers out of 5</string>
+    <string name="summary1Of5">Only 1 answer out of 5 is correct :-(</string>
+    <string name="summaryNoneOf5">Sorry, no answer is correct :-(</string>
+    <string name="score">Score:</string>
+    <!-- Text Strings for checking answer to question 5 -->
+    <string name="correctAnswerQ5">Banana</string>
+    <string name="wrongAnswerQ5">Apple</string>
+
+</resources>

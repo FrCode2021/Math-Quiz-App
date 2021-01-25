@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="Fun with Math!"
+            />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question1"
+            />
+
+        <CheckBox
+            android:id="@+id/question1CheckBox1"
+            style="@style/RadioButtonAndCheckboxStyle"
+            android:text="@string/question1OptionA"
+            />
+
+        <CheckBox
+            android:id="@+id/question1CheckBox2"
+            style="@style/RadioButtonAndCheckboxStyle"
+            android:text="@string/question1OptionB"
+            />
+
+        <CheckBox
+            android:id="@+id/question1CheckBox3"
+            style="@style/RadioButtonAndCheckboxStyle"
+            android:text="@string/question1OptionC"
+            />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question2"
+            />
+
+        <CheckBox
+            android:id="@+id/question2CheckBox1"
+            style="@style/RadioButtonAndCheckboxStyle"
+            android:text="@string/question2OptionA"
+            />
+
+        <CheckBox
+            android:id="@+id/question2CheckBox2"
+            style="@style/RadioButtonAndCheckboxStyle"
+            android:text="@string/question2OptionB"
+            />
+
+        <CheckBox
+            android:id="@+id/question2CheckBox3"
+            style="@style/RadioButtonAndCheckboxStyle"
+            android:text="@string/question2OptionC"
+            />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question3"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/yes_radio_button"
+                style="@style/RadioButtonAndCheckboxStyle"
+                android:text="@string/yes" />
+            <RadioButton
+                android:id="@+id/no_radio_button"
+                style="@style/RadioButtonAndCheckboxStyle"
+                android:text="@string/no" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question4"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/A_radio_button"
+                style="@style/RadioButtonAndCheckboxStyle"
+                android:text="@string/radioButtonA" />
+            <RadioButton
+                android:id="@+id/B_radio_button"
+                style="@style/RadioButtonAndCheckboxStyle"
+                android:text="@string/radioButtonB" />
+            <RadioButton
+                android:id="@+id/C_radio_button"
+                style="@style/RadioButtonAndCheckboxStyle"
+                android:text="@string/radioButtonC" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:text="@string/question5"
+            />
+
+        <EditText
+            android:id="@+id/AnswerFieldQ5"
+            style="@style/EditTextStyle"
+            android:hint="@string/answer5" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/grade"
+            android:onClick="checkAnswers"/>
+
+    </LinearLayout>
+</ScrollView>
